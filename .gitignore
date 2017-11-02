@@ -1,100 +1,100 @@
 ## General
 
 # Compiled Object files
-*.slo
-*.lo
-*.o
-*.cuo
+caffe-faster-rcnn/*.slo
+caffe-faster-rcnn/*.lo
+caffe-faster-rcnn/*.o
+caffe-faster-rcnn/*.cuo
 
 # Compiled Dynamic libraries
-*.so
-*.dylib
+caffe-faster-rcnn/*.so
+caffe-faster-rcnn/*.dylib
 
 # Compiled Static libraries
-*.lai
-*.la
-*.a
+caffe-faster-rcnn/*.lai
+caffe-faster-rcnn/*.la
+caffe-faster-rcnn/*.a
 
 # Compiled protocol buffers
-*.pb.h
-*.pb.cc
-*_pb2.py
+caffe-faster-rcnn/*.pb.h
+caffe-faster-rcnn/*.pb.cc
+caffe-faster-rcnn/*_pb2.py
 
 # Compiled python
-*.pyc
+caffe-faster-rcnn/*.pyc
 
 # Compiled MATLAB
-*.mex*
+caffe-faster-rcnn/*.mex*
 
 # IPython notebook checkpoints
-.ipynb_checkpoints
+caffe-faster-rcnn/.ipynb_checkpoints
 
 # Editor temporaries
-*.swp
-*~
+caffe-faster-rcnn/*.swp
+caffe-faster-rcnn/*~
 
 # Sublime Text settings
-*.sublime-workspace
-*.sublime-project
+caffe-faster-rcnn/*.sublime-workspace
+caffe-faster-rcnn/*.sublime-project
 
 # Eclipse Project settings
-*.*project
-.settings
+caffe-faster-rcnn/*.*project
+caffe-faster-rcnn/.settings
 
 # QtCreator files
-*.user
+caffe-faster-rcnn/*.user
 
 # PyCharm files
-.idea
+caffe-faster-rcnn/.idea
 
 # OSX dir files
-.DS_Store
+caffe-faster-rcnn/.DS_Store
 
 ## Caffe
 
 # User's build configuration
-Makefile.config
+caffe-faster-rcnn/Makefile.config
 
 # Data and models are either
 # 1. reference, and not casually committed
 # 2. custom, and live on their own unless they're deliberated contributed
-data/*
-models/*
-*.caffemodel
-*.caffemodel.h5
-*.solverstate
-*.solverstate.h5
-*.binaryproto
-*leveldb
-*lmdb
+caffe-faster-rcnn/data/*
+caffe-faster-rcnn/models/*
+caffe-faster-rcnn/*.caffemodel
+caffe-faster-rcnn/*.caffemodel.h5
+caffe-faster-rcnn/*.solverstate
+caffe-faster-rcnn/*.solverstate.h5
+caffe-faster-rcnn/*.binaryproto
+caffe-faster-rcnn/*leveldb
+caffe-faster-rcnn/*lmdb
 
 # build, distribute, and bins (+ python proto bindings)
-build
-.build_debug/*
-.build_release/*
-distribute/*
-*.testbin
-*.bin
-python/caffe/proto/
-cmake_build
-.cmake_build
+caffe-faster-rcnn/build
+caffe-faster-rcnn/.build_debug/*
+caffe-faster-rcnn/.build_release/*
+caffe-faster-rcnn/distribute/*
+caffe-faster-rcnn/*.testbin
+caffe-faster-rcnn/*.bin
+caffe-faster-rcnn/python/caffe/proto/
+caffe-faster-rcnn/cmake_build
+caffe-faster-rcnn/.cmake_build
 
 # Generated documentation
-docs/_site
-docs/gathered
-_site
-doxygen
-docs/dev
+caffe-faster-rcnn/docs/_site
+caffe-faster-rcnn/docs/gathered
+caffe-faster-rcnn/_site
+caffe-faster-rcnn/doxygen
+caffe-faster-rcnn/docs/dev
 
 # LevelDB files
-*.sst
-*.ldb
-LOCK
-LOG*
-CURRENT
-MANIFEST-*
+caffe-faster-rcnn/*.sst
+caffe-faster-rcnn/*.ldb
+caffe-faster-rcnn/LOCK
+caffe-faster-rcnn/LOG*
+caffe-faster-rcnn/CURRENT
+caffe-faster-rcnn/MANIFEST-*
 
-# currentDir
+# Current Dir
 *.pyc
 .ipynb_checkpoints
 lib/build
