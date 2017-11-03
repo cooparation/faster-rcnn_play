@@ -100,3 +100,4 @@ caffe-fast-rcnn/MANIFEST-*
 lib/build
 lib/pycocotools/_mask.c
 lib/pycocotools/_mask.so
+output/*
